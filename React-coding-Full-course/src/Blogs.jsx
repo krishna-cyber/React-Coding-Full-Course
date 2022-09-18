@@ -2,6 +2,9 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 function Blogs({blogs, title}) {
+    const handleDelete = (id) => {
+        
+    }
 
     return (
         <div className="blogs">
@@ -12,8 +15,10 @@ function Blogs({blogs, title}) {
                     <h2>{blog.title}</h2>
                     <p>Written by {blog.author}</p>
                     </Link>
+                   
                 </div>
             ))}
+        
         </div>
     )
 }

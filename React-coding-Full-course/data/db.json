@@ -1,28 +1,16 @@
 {
-    "blogs":[
-        {
-            "id":1,
-            "title":"Blog 1",
-            "content":"Content 1",
-            "author":"Author 1",
-            "created_at":"2019-01-01 00:00:00",
-            "updated_at":"2019-01-01 00:00:00"
-        },
-        {
-            "id":2,
-            "title":"Blog 2",
-            "content":"Content 2",
-            "author":"Author 2",
-            "created_at":"2019-01-01 00:00:00",
-            "updated_at":"2019-01-01 00:00:00"
-        } ,
-         {
-            "id":3,
-            "title":"Blog 3",
-            "content":"Content 3",
-            "author":"Author 3",
-            "created_at":"2019-01-01 00:00:00",
-            "updated_at":"2019-01-01 00:00:00"
-        }
-    ]
+  "blogs": [
+    {
+      "title": "dfdffs",
+      "content": "dfdfaf",
+      "author": "mario",
+      "id": 2
+    },
+    {
+      "title": "K xa dxt",
+      "content": "ekdam daamii xa\n",
+      "author": "mario",
+      "id": 3
+    }
+  ]
 }

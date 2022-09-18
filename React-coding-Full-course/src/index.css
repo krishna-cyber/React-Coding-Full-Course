@@ -80,3 +80,61 @@ body {
 .blog-preview a{
     text-decoration: none;
 }
+.blog-details article{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+    
+}
+.blog-details article div{
+    color: #3f90e1;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.create{
+    max-width: 400px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.create label{
+    text-align: left;
+    display: block;
+}
+.create h2{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #f1316d;
+    margin: 10px 0;
+}
+.create input, .create textarea, .create select{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #a19e9e;
+}
+.create button{
+    width: 100%;
+    display: block;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+    background-color: #f1316d;
+    cursor: pointer;
+}
